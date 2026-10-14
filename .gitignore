@@ -1,0 +1,33 @@
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+credentials.json
+secrets.json
+
+# Local Python environments, caches, and generated runtime/build files
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/coverage/
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.vercel/
+**/.render/
+frontend/runtime-config.js
+*.log
